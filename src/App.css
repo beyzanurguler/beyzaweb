@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  height: 100vh;
+  transition: background-color 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sunny {
+  background: linear-gradient(to bottom, #f0db4f, #f7c948);
+  color: #333;
+}
+
+.rainy {
+  background: linear-gradient(to bottom, #3a6186, #3a7996);
+  color: white;
+}
+
+.cloudy {
+  background: linear-gradient(to bottom, #d7d2cc, #757f9a);
+  color: black;
+}
+
+.default {
+  background: linear-gradient(to bottom, #74ebd5, #00cec9);
+  color: black;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Hafif saydam beyaz arka plan */
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Hakkında Butonu */
+.about-btn {
+  margin-top: 20px;
+  background-color: #28a745;
+  font-size: 1rem;
+}
+
+.about-btn:hover {
+  background-color: #218838;
+}
+
+/* Hakkında Bilgisi */
+.about-info {
+  margin-top: 20px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  font-size: 1.5rem;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+}
